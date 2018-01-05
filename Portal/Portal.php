@@ -1,6 +1,6 @@
 <?php
 
-namespace unphar;
+namespace Portal;
 
 use pocketmine\plugin\PluginBase;
 use pocketmine\event\Listener;
@@ -11,7 +11,7 @@ use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
 use pocketmine\command\ConsoleCommandSender;
 
-class unphar extends unpharcommand implements Listener{
+class Portal extends unpharcommand implements Listener{
 
 	public function onEnable(){
 		$this->getServer()->getPluginManager()->registerEvents($this, $this);
